@@ -1,18 +1,9 @@
 /******************************
 
-脚本名称: 万源阅读1.18
-下载地址：商店
-脚本作者：ios151
-更新时间：2023年10月7日 01:22
-问题反馈：https://t.me/ios151
-使用声明：脚本仅供学习与交流，请勿转载与贩卖
-
-*******************************
-
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wanyuanyuedu.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wanyuanyuedu.js
 
 [mitm] 
 
