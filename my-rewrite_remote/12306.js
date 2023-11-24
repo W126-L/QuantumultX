@@ -2,7 +2,7 @@
 > 使用说明：请在本地添加分流 host, ad.12306.cn, direct
 > 原作者：墨鱼
 [rewrite_local]
-^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/W126-L/QuantumultX/main/12306.js
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/12306.js
 
 [mitm]
 hostname = ad.12306.cn
