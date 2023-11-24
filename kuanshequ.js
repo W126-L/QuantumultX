@@ -1,5 +1,5 @@
 /***********************************
-原作者：墨鱼
+> 原作者：墨鱼
 [rewrite_local]
 # > 酷安_开屏广告
 ^https?:\/\/api.coolapk.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/kuanshequ.js
