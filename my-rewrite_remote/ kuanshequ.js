@@ -2,15 +2,15 @@
 > 原作者：墨鱼
 [rewrite_local]
 # > 酷安_开屏广告
-^https?:\/\/api.coolapk.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remotekuanshequ.js
+^https?:\/\/api.coolapk.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/kuanshequ.js
 # > 酷安_推广广告
-^https?:\/\/api.coolapk.com\/v6\/dataList url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/kuanshequ.js
+^https?:\/\/api.coolapk.com\/v6\/dataList url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/kuanshequ.js
 # > 酷安_首页广告
-^https?:\/\/api.coolapk.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/kuanshequ.js
+^https?:\/\/api.coolapk.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/kuanshequ.js
 # > 酷安_评论广告
-^https?:\/\/api.coolapk.com\/v6\/feed\/replyList url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/kuanshequ.js
+^https?:\/\/api.coolapk.com\/v6\/feed\/replyList url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/kuanshequ.js
 # > 酷安_商品推广
-^https?:\/\/api.coolapk.com\/v6\/feed\/detail url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/kuanshequ.js
+^https?:\/\/api.coolapk.com\/v6\/feed\/detail url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/my-rewrite_remote/kuanshequ.js
 # > 酷安_屏蔽热词
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 
