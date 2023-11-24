@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://githubusercontent.com/W126-L/QuantumultX/main/12306.js
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/W126-L/QuantumultX/main/12306.js
 
 [mitm]
 
