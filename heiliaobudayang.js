@@ -12,13 +12,12 @@
 ### 配置 (QuanX)
 ```properties
 [task_local]
-0 9,15 * * * https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png, enabled=true
+0 9,15 * * * https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/W126-L/QuantumultX/main/budayang.PNG, enabled=true
 ```
 ### 配置 (Loon)
 ```properties
 [Script]
-cron "0 9,15 * * *" script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js,timeout=10, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png
-```
+cron "0 9,15 * * *" script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js,timeout=10, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/W126-L/QuantumultX/main/budayang.PNG
 ### 配置 (Surge)
 ```properties
 黑料不打烊 = type=cron,cronexp=0 0 9,15 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js,timeout=60
