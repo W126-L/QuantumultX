@@ -1,0 +1,70 @@
+#书源分流
+#泡书吧
+host-suffix, paoshuba.com, 阅读分流
+#69成人小说网
+host-suffix, 69story.com, 阅读分流
+#
+host-suffix, czbook.net, 阅读分流
+#
+host-suffix, powanjuan.cc, 阅读分流
+
+#宙斯小说网
+host-suffix, zhsxs.com, 阅读分流
+#
+host-suffix, zhsshu.com, 阅读分流
+#
+host-suffix, api.bookmake.cc, 阅读分流
+#69书吧
+host-suffix, 69shuba.com, 阅读分流
+#
+host-suffix, funs.me, 阅读分流
+#
+host-suffix, bookbl.com, 阅读分流
+#
+host-suffix, ptwxz.com, 阅读分流
+#
+host-suffix, m.banxia.tw, 阅读分流
+#
+host-suffix, cn.ttkan.co, 阅读分流
+#
+host-suffix, xhwx3.com, 阅读分流
+#
+host-suffix, xhwx6.com, 阅读分流
+#
+host-suffix, hongxiux.com, 阅读分流
+#
+host-suffix, api.wattpad.com, 阅读分流
+#
+host-suffix, shubaow.net, 阅读分流
+#
+host-suffix, ocsp.pki.goog, 阅读分流
+#
+host-suffix, archiveofourown.org, 阅读分流
+#
+host-suffix, twhentai.com, 阅读分流
+#
+host-suffix, qiximh2.com, 阅读分流
+#
+host-suffix, qiximh4.com, 阅读分流
+#
+host-suffix, 733.so, 阅读分流
+#
+host-suffix, api.hentaiser, 阅读分流
+#
+host-suffix, hentaiclub.net, 阅读分流
+#红袖招
+host-suffix, hongxiuzhao.org, 阅读分流
+#
+host-suffix, piaotian.com, 阅读分流
+#
+host-suffix, bookmake.cc, 阅读分流
+#
+host-suffix, czbooks.net, 阅读分流
+#
+host-suffix, hentaiser.com, 阅读分流
+#88小说网
+host-suffix, 88xiaoshuo.com, 阅读分流
+
+
+
+
