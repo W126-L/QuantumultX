@@ -12,7 +12,7 @@
 ### 配置 (QuanX)
 ```properties
 [task_local]
-0 9,15 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png, enabled=true
+0 9,15 * * * https://raw.githubusercontent.com/W126-L/QuantumultX/main/heiliaobudayang.js, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png, enabled=true
 ```
 ### 配置 (Loon)
 ```properties
