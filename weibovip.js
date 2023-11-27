@@ -1,6 +1,4 @@
 /**************************
- *  * @Author: XiaoMao
- * @LastMod: 2023-08-11
  *
  * 
 
@@ -9,8 +7,6 @@
 \解\锁\部\分\个\性\小\尾\巴\
 
 ********************************
-# 小版本更新请查看更新日志 ｜ 或加入xiaomao组织⬇️
-# 微信公众号 【小帽集团】
 # XiaoMao · Tg频道频道：https://t.me/xiaomaoJT
 # XiaoMao · GitHub仓库：https://github.com/xiaomaoJT/QxScript
 
@@ -18,7 +14,7 @@
 使用方法：
 
 1、QX > 右下角风车 > 重写 > 规则资源 > 引用以下脚本 > 打开资源解析器
-https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMaoWeiBo.js
+https://raw.githubusercontent.com/W126-L/QuantumultX/main/weibovip.js
 
 2、解锁位置：
 微博 > 我 > 右上角设置 > 会员专属设置 > 个性图标/微博来源
@@ -32,8 +28,8 @@ https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMaoW
 hostname = new.vip.weibo.cn,api.weibo.cn,weibointl.api.weibo.cn
 
 [rewrite_local]
-https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/wb.js
-https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/wb.js
-https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/wb.js
+https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
+https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
+https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
 
 ********************************/
