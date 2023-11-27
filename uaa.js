@@ -6,7 +6,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(api|m)\.uaa.*\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js
+^https?:\/\/(api|m)\.uaa.*\.com url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/uua.js
 
 [mitm]
 hostname = *.uaa*.com
