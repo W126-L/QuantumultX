@@ -10,7 +10,7 @@
 ^https?:\/\/(files\.(yuchenglw|honghufly)\.com|(os\.privacypolicie|ss\.osupdate|cdn\.privacypolicie)\.net) url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/seseshipin.js
 
 [mitm]
-hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net
+hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net, office.qianyibangong.com
 
 *************************************/
 
