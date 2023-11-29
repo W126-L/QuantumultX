@@ -4,13 +4,14 @@
 下载地址：https://12966.net
 网页在线：https://files.yuchenglw.com
 
+
 **************************************
 
 [rewrite_local]
-^https?:\/\/(files\.(yuchenglw|honghufly)\.com|(os\.privacypolicie|ss\.osupdate|cdn\.privacypolicie)\.net) url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/seseshipin.js
+^https?:\/\/(files\.(yuchenglw|honghufly)\.com|(os\.privacypolicie|ss\.osupdate|cdn\.privacypolicie)\.net) url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
 
 [mitm]
-hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net, office.qianyibangong.com
+hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net
 
 *************************************/
 
@@ -18,7 +19,7 @@ hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net, office.qianyiban
 var body = $response.body;
 
 // 定义替换规则
-var W126-L = [
+var chxm1023 = [
     { search: /(<div id="launch">)[\s\S[\d\D]{0,1000}(<\/script>)/g, replace: '$2' },  //开屏广告
     { search: /(<div id="popup">)[\s\S[\d\D]{0,5000}(<div class="header">)/g, replace: '$2' },  //首页弹窗
     { search: /(<div class="container mt-3">)[\s\S[\d\D]{28,30000}(<div class="banner mt-3">)/g, replace: '$2' },  //屏蔽首页广告
@@ -30,7 +31,7 @@ var W126-L = [
 ];
 
 // 执行替换
-W126-L.forEach(replacement => {
+chxm1023.forEach(replacement => {
     body = body.replace(replacement.search, replacement.replace);
 });
 
