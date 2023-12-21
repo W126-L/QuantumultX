@@ -1,0 +1,17 @@
+# NAME: DouYin
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-12-14 16:58:47
+# HOST-SUFFIX: 11
+# TOTAL: 11
+HOST-SUFFIX,amemv.com,抖音
+HOST-SUFFIX,douyincdn.com,抖音
+HOST-SUFFIX,douyinpic.com,抖音
+HOST-SUFFIX,douyinstatic.com,抖音
+HOST-SUFFIX,douyinvod.com,抖音
+HOST-SUFFIX,idouyinvod.com,抖音
+HOST-SUFFIX,ixigua.com,抖音
+HOST-SUFFIX,ixiguavideo.com,抖音
+HOST-SUFFIX,pstatp.com,抖音
+HOST-SUFFIX,snssdk.com,抖音
+HOST-SUFFIX,toutiao.com,抖音
