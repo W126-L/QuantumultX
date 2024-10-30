@@ -8,7 +8,7 @@
 skip-proxy = api-access.pangolin-sdk-toutiao.com
 
 [Rule]
-DOMAIN,api-access.pangolin-sdk-toutiao.com,DIRECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com,PROXY
 DOMAIN,open.e.kuaishou.com,REJECT-NO-DROP
 DOMAIN,video-dsp.pddpic.com,REJECT-NO-DROP
 DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT-NO-DROP
