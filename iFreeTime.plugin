@@ -30,7 +30,7 @@ DOMAIN-SUFFIX,ugdtimg.com,REJECT-NO-DROP
 DOMAIN-SUFFIX,doubleclick.net,REJECT-NO-DROP
 
 [Script]
-http-response ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/iFreeTimekp.js,requires-body=true,img-url=https://raw.githubusercontent.com/W126-L/QuantumultX/main/iFreeTime.PNG,tag=爱阅书香会员激励
+http-response ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/iFreeTimekp.js,requires-body=true,tag=爱阅书香会员激励
 
 [Mitm]
 hostname =  %APPEND% api-access.pangolin-sdk-toutiao.com
