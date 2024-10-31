@@ -1,6 +1,6 @@
 #!name=趣听音乐馆
 #!desc=屏蔽趣听音乐弹窗/首页横幅
-#!author=Wuang
+#!author=@留存@Wuang
 #!category=⚙️ ▸ 应用屏蔽
 #!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/qutingyunyue.png
 #
