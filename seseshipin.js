@@ -1,3 +1,9 @@
+#!name=涩涩视频
+#!desc=去除广告脚本
+#!author=留存@Wuang，原作者@chxm1023
+#!category=⚙ ▸ 应用去广告
+#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/seseshipin.png
+#
 /*************************************
 
 项目名称：涩涩视频——去除所有广告
@@ -17,12 +23,7 @@
 hostname = files.*.com, os.privacypolicie.net, ss.osupdate.net
 
 *************************************/
-#!name=涩涩视频
-#!desc=去除广告脚本
-#!author=留存@Wuang，原作者@chxm1023
-#!category=⚙ ▸ 应用去广告
-#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/seseshipin.png
-#
+
 
 var body = $response.body;
 
