@@ -1,14 +1,8 @@
-/****************************************
-
-项目功能：趣听音乐馆
-功能说明：屏蔽弹窗/首页横幅
-
-*****************************************
 #!name=趣听音乐馆
 #!desc=屏蔽趣听音乐弹窗/首页横幅
 #!author=Wuang
 #!category=⚙️ ▸ 应用屏蔽
-#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/aiyamanya.png
+#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/qutingyunyue.png
 #
             
 [rewrite_local]
