@@ -1,9 +1,9 @@
-/***********************************
-> 应用名称：易截图2
-> 软件版本：1.2.2
-> 下载地址：https://apps.apple.com/cn/app/id1633186528
-> 解锁说明：去除水印，解锁高级功能
-
+#!name=易截图2
+#!desc=去除水印，解锁高级功能
+#!author=留存@wuang
+#!category=⚙ ▸ 应用解锁、增强
+#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/yijietu.png
+#
 [rewrite_local]
   
 # > 易截图2☆去除水印（2023-08-02）
