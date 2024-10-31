@@ -3,10 +3,8 @@
 #!author=留存@wuang
 #!category=⚙ ▸ 应用解锁、增强
 #!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/yijietu.png
-#
+/***********************************
 [rewrite_local]
-  
-# > 易截图2☆去除水印（2023-08-02）
 ^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/yijietu2.js
 
 
