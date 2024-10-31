@@ -1,3 +1,9 @@
+#!name=JavDB-净化/VIP
+#!desc=JavDB-净化/VIP解锁脚本
+#!author=留存@Wuang，原作者@chxm1023，数据来源：@yqc_123
+#!category=⚙ ▸ 应用净化解锁
+#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/JavDB.png
+#
 /*************************************
 原脚本：https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
 项目名称：JavDB-净化/VIP
@@ -10,12 +16,7 @@
 使用声明：⚠️仅供参考，🈲转载与售卖！
 
 **************************************
-#!name=JavDB-净化/VIP
-#!desc=JavDB-净化/VIP解锁脚本
-#!author=留存@Wuang，原作者@chxm1023，数据来源：@yqc_123
-#!category=⚙ ▸ 应用净化解锁
-#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/JavDB.png
-#
+
 [rewrite_local]
 ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/JavDB.js
 ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/W126-L/QuantumultX/main/JavDB.js
