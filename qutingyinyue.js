@@ -4,7 +4,7 @@
 #!category=⚙️ ▸ 应用屏蔽
 #!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/qutingyunyue.png
 #
-            
+*****************************************           
 [rewrite_local]
 ^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/qutingyinyue.js
 
