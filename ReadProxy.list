@@ -1,8 +1,9 @@
-#!name= 阅读分流
-#!desc=各类换源APP内源站点分流规则
-#!author = 午时已到
+#!name= 网站分流
+#!desc=源站点分流规则
+#!author = @午时已到@Wuang修改
 #!category= ⚙️ ▸ Rule
-# > 用于谷歌去广告
+
+# > 用于谷歌网站去广告分流
 DOMAIN, adservice.google.com, REJECT
 DOMAIN, www.googleadservices.com, REJECT
 DOMAIN, pagead2.googlesyndication.com, REJECT
@@ -10,8 +11,8 @@ DOMAIN, pubads.g.doubleclick.net, REJECT
 DOMAIN, googleads.g.doubleclick.net, REJECT
 DOMAIN, googleads.g.doubleclick-cn.net, REJECT
 DOMAIN, adservice.google.com, REJECT
-# > 用于书源分流
-#==================小说==================#
+
+# > 用于小说网站分流
 
 DOMAIN, hka-emby.aliz.work, DIRECT
 DOMAIN-SUFFIX, ku137.com, DIRECT
@@ -45,301 +46,36 @@ DOMAIN-SUFFIX, xiaoshuopu.com, DIRECT
 DOMAIN-SUFFIX, wlwx.la, DIRECT
 DOMAIN-SUFFIX, po5.net, DIRECT
 DOMAIN-SUFFIX, 42zw.la, DIRECT
-
-# 第一版主
-#DOMAIN-SUFFIX, diyibanzhu.buzz , PROXY
-DOMAIN-SUFFIX, 12bz.net , PROXY
-DOMAIN-KEYWORD, banzhu, PROXY
-# 御书屋
-DOMAIN-SUFFIX, yuzhaiwu.life , PROXY
-DOMAIN-SUFFIX, po18xs.com , PROXY
-# 集书阁
-DOMAIN-SUFFIX, jishuge.vip , PROXY
-# 爱笔楼/笔趣阁
-DOMAIN-SUFFIX, ibiquge.info , PROXY
-DOMAIN-SUFFIX, ibiquzw.info , PROXY
-# 猫眼看书
-DOMAIN-SUFFIX, jmlldsc.com , PROXY
-DOMAIN-SUFFIX, jxgtzxc.com , PROXY
-# 笔尖小说
-DOMAIN-SUFFIX, bjcan8.com , PROXY
-# 恩木书库
-DOMAIN-SUFFIX, enmuku.com , PROXY
-# 疯情阅读
-DOMAIN-SUFFIX, aaread.club , PROXY
-# 龙腾小说
-DOMAIN-SUFFIX, longtengxiaoshuo.org , PROXY
-# 大米小说
-DOMAIN-SUFFIX, damixs.com , PROXY
-DOMAIN-SUFFIX, damixs.info , PROXY
-# 海阅小说8
-DOMAIN-SUFFIX, haiyue8.cc , PROXY
-DOMAIN-SUFFIX, haiyue8.com , PROXY
-# 番茄小说123
-DOMAIN-SUFFIX, fqxs123.com , PROXY
-# 提莫书屋
-DOMAIN-SUFFIX, timotxt.com , PROXY
-# 贼吧网
-DOMAIN-SUFFIX, zei8.vip , PROXY
-# 言情港
-DOMAIN-SUFFIX, yanqinggang.com , PROXY
-# 看书神
-DOMAIN-SUFFIX, kanshushenapp.com , PROXY
-# 笔趣阁
-DOMAIN-SUFFIX, biqugewu.net , PROXY
-DOMAIN-SUFFIX, biqugej.org , PROXY
-DOMAIN-SUFFIX, bqgka.com , PROXY
-DOMAIN-SUFFIX, bqgbe.com , PROXY
-# 笔趣阁789
-DOMAIN-SUFFIX, biquzw789.info , PROXY
-DOMAIN-SUFFIX, bqg789.com , PROXY
-DOMAIN-SUFFIX, bqzw789.com , PROXY
-# 天天书吧
-DOMAIN-SUFFIX, ttshuba.net , PROXY
-# 全本小说
-DOMAIN-SUFFIX, qb5.in , PROXY
-DOMAIN-SUFFIX, qb5.ac , PROXY
-# 奇快中文
-DOMAIN-SUFFIX, qkzw.cc , PROXY
-# 138阅读网
-DOMAIN-SUFFIX, 138txt.net , PROXY
-# 错衡文学网
-DOMAIN-SUFFIX, cuoheng.com , PROXY
-# 乐文小说
-DOMAIN-SUFFIX, lewen.so , PROXY
-DOMAIN-SUFFIX, lewen.org , PROXY
-# 天籁小说
-DOMAIN-SUFFIX, 23sk.net , PROXY
-DOMAIN-SUFFIX, 23sk.com , PROXY
-# 星月文学
-DOMAIN-SUFFIX, xingyueboke.com , PROXY
-# TVB小说网
-DOMAIN-SUFFIX, tvbts.net , PROXY
-DOMAIN-SUFFIX, tvbts4.com , PROXY
-# 飞翔鸟中文🐦‍⬛
-DOMAIN-SUFFIX, fxnzw.com, PROXY
-# 爱去小说
-DOMAIN-SUFFIX, aiquxs.com , PROXY
-# 书汇小说
-DOMAIN-SUFFIX, shuhui8.com , PROXY
-# 爱下电子书
-DOMAIN-SUFFIX, aixdzs.com, PROXY
-# 渣渣小说
-DOMAIN-SUFFIX, zztxt.net , PROXY
-# 云云小说
-DOMAIN-SUFFIX, yunyunxs.com , PROXY
-# 去读小说
-DOMAIN-SUFFIX, hongyue3.net , PROXY
-# 147小说
-DOMAIN-SUFFIX, 147xs.org , PROXY
-# 第一六九
-DOMAIN-SUFFIX, diyi69.com , PROXY
-# 海棠文学
-DOMAIN-SUFFIX, longmabookcn.com, PROXY
-# 52书库
-DOMAIN-SUFFIX, po5.net, PROXY
-# 泡书吧
-DOMAIN-SUFFIX, paoshuba.com, PROXY
-# 69成人小说网
-DOMAIN-SUFFIX, 69story.com, PROXY
-# 小说狂人网
-DOMAIN-SUFFIX, czbook.net, PROXY
-# 破万卷
-DOMAIN-SUFFIX, powanjuan.cc, PROXY
-# 宙斯小说
-DOMAIN-SUFFIX, zhsxs.com, PROXY
-DOMAIN-SUFFIX, zhsshu.com, PROXY
-# 小说王子
-DOMAIN-SUFFIX, api.bookmake.cc, PROXY
-# 69书吧
-DOMAIN-SUFFIX, 69shuba.com, PROXY
-DOMAIN-SUFFIX, 69xinshu.com, PROXY
-DOMAIN-KEYWORD, 69shu, PROXY
-# 放肆文学
-DOMAIN-SUFFIX, funs.me, PROXY
-# 冰雷中文
-DOMAIN-SUFFIX, bookbl.com, PROXY
-# 飘天文学网
-DOMAIN-SUFFIX, ptwxz.com, PROXY
-DOMAIN-SUFFIX, piaotian.com, PROXY
-DOMAIN-SUFFIX, piaotia.com, PROXY
-# 半夏小说
-DOMAIN-SUFFIX, m.banxia.tw, PROXY
-# 天天看小说网
-DOMAIN-SUFFIX, cn.ttkan.co, PROXY
-# 玄幻文学
-DOMAIN-SUFFIX, xhwx3.com, PROXY
-DOMAIN-SUFFIX, xhwx6.com, PROXY
-# 红袖招
-DOMAIN-SUFFIX, hongxiux.com, PROXY
-DOMAIN-SUFFIX, hongxiuzhao.org, PROXY
-# Wattpad
-DOMAIN-SUFFIX, api.wattpad.com, PROXY
-# 书宝网
-DOMAIN-SUFFIX, shubaow.net, PROXY
-# 何图文化
-DOMAIN-SUFFIX, hotupub.net, PROXY
-# 腐腐文库
-DOMAIN-SUFFIX, smileangel5771.blog.fc2.com, PROXY
-# Archive of Our Own
-DOMAIN-SUFFIX, archiveofourown.org, PROXY
-# 小说制造所
-DOMAIN-SUFFIX, bookmake.cc, PROXY
-# 黑猫小说
-DOMAIN-SUFFIX, czbooks.net, PROXY
-# 88小说网
-DOMAIN-SUFFIX, 88xiaoshuo.com, PROXY
-# 可乐小说网
-DOMAIN-SUFFIX, kelexsw.com, PROXY
-DOMAIN-SUFFIX, m.xklxsw.com, PROXY
-# uaa
-#DOMAIN, api.uaa.com, PROXY
-#DOMAIN, cdn.uaa.com, PROXY
-DOMAIN-KEYWORD, uaa, PROXY
-# z-library
-DOMAIN, zh.z-library.se, PROXY
-DOMAIN-KEYWORD,z-library.se, PROXY
-#==================漫画==================#
-# 禁漫天堂
-DOMAIN-SUFFIX, jm365.work, PROXY
-#DOMAIN-SUFFIX, 18comic.org, PROXY
-#DOMAIN-SUFFIX, 18comic.vip, PROXY
-#DOMAIN-SUFFIX, jm-comic1.cc, PROXY
-#DOMAIN-SUFFIX, jm-comic2.org, PROXY
-DOMAIN-KEYWORD, jmapi, PROXY
-DOMAIN-KEYWORD, jm-comic, PROXY
-DOMAIN-KEYWORD, 18comic, PROXY
-# 哔咔
-DOMAIN-SUFFIX, manhuabika.com, PROXY
-# Eh e-hentai
-DOMAIN-SUFFIX, e-hentai.org, PROXY
-DOMAIN-SUFFIX, ehgt.org, PROXY
-# Nhentai
-DOMAIN-KEYWORD, n-hentai, PROXY
-DOMAIN-KEYWORD, nhentai, PROXY
-# Hitomi
-DOMAIN-SUFFIX, atn.hitomi.la, PROXY
-# 漫蛙漫画
-DOMAIN-SUFFIX, manwa.me, PROXY
-DOMAIN-SUFFIX, mwcomic9.online, PROXY
-# Twhentai
-DOMAIN-SUFFIX, twhentai.com, PROXY
-DOMAIN-SUFFIX, api.hentaiser, PROXY
-DOMAIN-SUFFIX, hentaiser.com, PROXY
-# 套图
-DOMAIN-SUFFIX, hentaiclub.net, PROXY
-# BiliBiliComics
-DOMAIN-SUFFIX, bilibilicomics.com, PROXY
-# 733漫画
-DOMAIN-SUFFIX, 733.so, PROXY
-# 七夕漫画
-DOMAIN-SUFFIX, qiximh2.com, PROXY
-DOMAIN-SUFFIX, qiximh4.com, PROXY
-# BIKA庇护所
-DOMAIN-SUFFIX, ios.zzz70.top, PROXY
-DOMAIN-SUFFIX, ios.zzz74.top, PROXY
-# 香香腐宅
-DOMAIN-SUFFIX, boylove.cc, PROXY
-# 一耽漫画
-DOMAIN-KEYWORD, yidan, PROXY
-DOMAIN-KEYWORD, yidanyidan, PROXY
-DOMAIN-KEYWORD, ydan, PROXY
-# 顶漫画
-DOMAIN-SUFFIX, dingmanhua.com , PROXY
-# 鸟鸟韩漫
-DOMAIN-SUFFIX, nnhanman.net , PROXY
-# mangabz漫画
-DOMAIN-SUFFIX, mangabz.com , PROXY
-# 漫画柜
-DOMAIN-SUFFIX, manhuagui.com , PROXY
-DOMAIN-SUFFIX, mhgui.com , PROXY
-# 拷贝漫画
-#DOMAIN-SUFFIX, copymanga.tv , PROXY
-DOMAIN-SUFFIX, mangafuna.xyz , PROXY
-DOMAIN-KEYWORD, copymanga, PROXY
-# 禁漫屋
-DOMAIN-KEYWORD, jmwu , PROXY
-# 久久漫画
-DOMAIN-SUFFIX, ikanhm.top , PROXY
-DOMAIN-SUFFIX, mxshm.top , PROXY
-DOMAIN-SUFFIX, wzdhm.cc , PROXY
-DOMAIN-SUFFIX, comicimgs.com , PROXY
-DOMAIN-SUFFIX, mxs10.cc , PROXY
-# 就漫画
-DOMAIN-SUFFIX, jiumanhua.com, PROXY
-# rawkuma漫画
-DOMAIN-SUFFIX, rawkuma.com , PROXY
-# 开心看漫画
-DOMAIN-SUFFIX, kxkmh.top , PROXY
-DOMAIN-SUFFIX, ymmh01.top , PROXY
-# 动漫之家
-DOMAIN-SUFFIX, dmzj.com , PROXY
-# 包子漫画
-DOMAIN-SUFFIX, webmota.com , PROXY
-# 漫蛙
-DOMAIN-SUFFIX, manwa.me , PROXY
-# 绅士漫画
-DOMAIN-SUFFIX, wnacg.com , PROXY
-DOMAIN-SUFFIX, qy0.ru , PROXY
-# 酷看漫画
-DOMAIN-SUFFIX, kukanmanhua.com , PROXY
-# 九妖漫画
-DOMAIN-SUFFIX, ciyuanrukou.com , PROXY
-# colamanga漫画
-DOMAIN-SUFFIX, colamanhua.com , PROXY
-# 野蛮漫画
-DOMAIN-SUFFIX, yemancomic.com , PROXY
-DOMAIN-SUFFIX, tmsmh.com , PROXY
-# ✈hentaiPaw漫画
-DOMAIN-SUFFIX, hentaipaw.com, PROXY
-DOMAIN-SUFFIX, imagedeliveries.com, PROXY
-# ✈ASM漫画asmhentai
-DOMAIN-SUFFIX, asmhentai.com, PROXY
-# 7mm漫画7mmtv
-DOMAIN-SUFFIX, 7mmtv.sx, PROXY
-# H-Comic漫画
-DOMAIN-SUFFIX, h-comic.com, PROXY
-#==================影视==================#
-# 海外看
-DOMAIN-SUFFIX, haiwaikan.com, PROXY
-# Hanime
-DOMAIN-SUFFIX, hanime1.me, PROXY
-#DOMAIN-SUFFIX, vdownload.hembed.com, PROXY
-#DOMAIN-SUFFIX, sb-cd.com, PROXY
-DOMAIN-KEYWORD, vdownload, PROXY
-DOMAIN-KEYWORD, sb-cd, PROXY
-DOMAIN-KEYWORD, abre-videos, PROXY
-# Pornhub
-DOMAIN-KEYWORD, pornhub, PROXY
-DOMAIN-SUFFIX, phncdn.com, PROXY
-# 华乐影视（蓝光需代理）
-DOMAIN-SUFFIX, huale.tv, PROXY
-# 啦啦啦影视
-DOMAIN-SUFFIX, 35553.cc, PROXY
-# 樱花视频
-DOMAIN-SUFFIX, yhzy.cc, PROXY
-# ✈妹塔宇宙meitaav视频
-DOMAIN-SUFFIX, meitaav.com, PROXY
-DOMAIN-SUFFIX, meita.cc, PROXY
-# 91porn视频
-DOMAIN-SUFFIX, 91porn.com, PROXY
-# 麻豆视频
-DOMAIN-SUFFIX, me, PROXY
-# 溅射淫行视频
-DOMAIN-SUFFIX, xd01.me, PROXY
-# 正妹AV视频
-DOMAIN-SUFFIX, goodav17.com, PROXY
-# 哟糖社
-DOMAIN-SUFFIX, nicesss.com , PROXY
-DOMAIN-SUFFIX, nicezzz.com , PROXY
-#================订阅源==================#
-# 阿巴基猫Yealico漫画规则站
-DOMAIN, wc3818290.home.blog, PROXY
-# 小黃書订阅源
-DOMAIN, tw.xchina.co, PROXY
-# Demo~Jiali订阅源
-DOMAIN, jializyzapi.com, PROXY
-# 源仓库
-DOMAIN-SUFFIX, yckceo.com, PROXY
-# 蒲公英
-DOMAIN-SUFFIX, pgyer.com, PROXY
+DOMAIN-SUFFIX, paoshuba.com, DIRECT
+DOMAIN-SUFFIX, 69story.com, DIRECT
+DOMAIN-SUFFIX, czbook.net, DIRECT
+DOMAIN-SUFFIX, powanjuan.cc, DIRECT
+DOMAIN-SUFFIX, zhsxs.com, DIRECT
+DOMAIN-SUFFIX, zhsshu.com, DIRECT
+DOMAIN-SUFFIX, api.bookmake.cc, DIRECT
+DOMAIN-SUFFIX, 69shuba.com, DIRECT
+DOMAIN-SUFFIX, funs.me, DIRECT
+DOMAIN-SUFFIX, bookbl.com, DIRECT
+DOMAIN-SUFFIX, ptwxz.com, DIRECT
+DOMAIN-SUFFIX, m.banxia.tw, DIRECT
+DOMAIN-SUFFIX, cn.ttkan.co, DIRECT
+DOMAIN-SUFFIX, xhwx3.com, DIRECT
+DOMAIN-SUFFIX, xhwx6.com, DIRECT
+DOMAIN-SUFFIX, hongxiux.com, DIRECT
+DOMAIN-SUFFIX, api.wattpad.com, DIRECT
+DOMAIN-SUFFIX, shubaow.net, DIRECT
+DOMAIN-SUFFIX, ocsp.pki.goog, DIRECT
+DOMAIN-SUFFIX, archiveofourown.org, DIRECT
+DOMAIN-SUFFIX, twhentai.com, DIRECT
+DOMAIN-SUFFIX, qiximh2.com, DIRECT
+DOMAIN-SUFFIX, qiximh4.com, DIRECT
+DOMAIN-SUFFIX, 733.so, DIRECT
+DOMAIN-SUFFIX, api.hentaiser, DIRECT
+DOMAIN-SUFFIX, hentaiclub.net, DIRECT
+DOMAIN-SUFFIX, hongxiuzhao.org, DIRECT
+DOMAIN-SUFFIX, piaotian.com, DIRECT
+DOMAIN-SUFFIX, bookmake.cc, DIRECT
+DOMAIN-SUFFIX, czbooks.net, DIRECT
+DOMAIN-SUFFIX, hentaiser.com, DIRECT
+DOMAIN-SUFFIX, 88xiaoshuo.com, DIRECT
+DOMAIN-SUFFIX, 42zw.la, DIRECT
