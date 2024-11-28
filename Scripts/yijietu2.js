@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/yijietu.png
 
 [rewrite_local]
-^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://github.com/W126-L/Tool/raw/refs/heads/master/Scripts/yijietu2.js
+^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/yijietu2.js
 
 
 [mitm] 
