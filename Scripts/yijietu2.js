@@ -13,20 +13,20 @@
 > 特别提醒：如需转载请注明出处，谢谢合作！
 > 特别说明：⚠️⚠️⚠️
           本脚本仅供学习交流使用，禁止转载售卖
-          ⚠️⚠️⚠️
+          ⚠️⚠️
+***********************************/
 
 
 [rewrite_local]
   
-# > 易截图2☆去除水印（2023-08-02）@ddgksf2013
-^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/yijietu2.js
+^https?:\/\/.*jietu、.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/yijietu2.js
 
 
 [mitm] 
 
 hostname=*jietu*
 
-***********************************/
+
 
 
 
