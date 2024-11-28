@@ -1,9 +1,0 @@
-#!name=趣听音乐
-#!desc=趣听音乐屏蔽弹窗/首页横幅
-#!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/qutingyunyue.png
-
-[Script]
-http-response ^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ script-path=https://raw.githubusercontent.com/W126-L/QuantumultX/main/qutingyinyue.js, requires-body=true, timeout=60, tag=趣听音乐
-
-[MITM]
-hostname = api.bspapp.com, api.next.bspapp.com
