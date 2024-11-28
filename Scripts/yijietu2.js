@@ -3,7 +3,7 @@
 #!author=留存@wuang
 #!category=⚙ ▸ 应用解锁、增强
 #!icon=https://raw.githubusercontent.com/W126-L/QuantumultX/refs/heads/main/yijietu.png
-/***********************************
+
 [rewrite_local]
 ^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/yijietu2.js
 
@@ -12,7 +12,7 @@
 
 hostname=*jietu*
 
-***********************************/
+
 
 
 
