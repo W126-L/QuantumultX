@@ -1,5 +1,5 @@
 /*************************************
-
+原脚本链接：https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
 项目名称：涩涩视频—去除所有广告
 下载地址：https://23581.net/
 在线观看：https://os.privacypolicie.net
