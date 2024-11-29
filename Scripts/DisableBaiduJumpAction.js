@@ -8,7 +8,7 @@
 [rewrite_local]
 
 # > 百度不跳转
-^https?:\/\/.*\.baidu\.com\/.+ url script-request-header ttps://raw.githubusercontent.com/W126-L/Tool/master/Scripts/DisableBaiduJumpAction.js
+^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/DisableBaiduJumpAction.js
 
 [mitm] 
 
