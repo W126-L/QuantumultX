@@ -5,8 +5,7 @@
 
 hostname = weixin110.qq.com, security.wechat.com,
 
-^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/WeChatNoURL.js
-
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/WeChatNoURL.js
 */
 
 let persisVal = read("UnblockURLinWeChat");
