@@ -1,0 +1,9 @@
+#!name=哎呀漫鸭
+#!desc=哎呀漫鸭解锁终身会员（永久）_去广告
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/rangwomiaomiao.png
+
+[Script]
+http-response https://www.aiyamanya.com/aymy/api/getUserInfo script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/ManYa.js, requires-body=true, timeout=60, tag=ManYa
+
+[MITM]
+hostname = www.aiyamanya.com
