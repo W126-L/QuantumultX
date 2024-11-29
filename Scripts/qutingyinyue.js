@@ -10,7 +10,7 @@
 
             
 [rewrite_local]
-^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ url script-response-body ttps://raw.githubusercontent.com/W126-L/Tool/master/Scripts/qutingyinyue.js.js
+^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ url script-response-body ttps://raw.githubusercontent.com/W126-L/Tool/master/Scripts/qutingyinyue.js
 
 [mitm]
 hostname = api.bspapp.com, api.next.bspapp.com
