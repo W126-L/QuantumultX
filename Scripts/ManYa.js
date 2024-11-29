@@ -4,7 +4,7 @@
 解锁会员权益
 [rewrite_local]
 
-https://www.aiyamanya.com/aymy/api/getUserInfo url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Manya.js
+https://www.aiyamanya.com/aymy/api/getUserInfo url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/ManYa.js
 
 [mitm] 
 
