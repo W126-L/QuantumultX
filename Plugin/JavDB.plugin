@@ -1,0 +1,11 @@
+#!name=JavDB
+#!desc=JavDB-净化&解锁永久VIP
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
+
+[Script]
+http-response ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, requires-body=true, timeout=60, tag=JavDB
+
+http-request ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, timeout=60, tag=JavDB
+
+[MITM]
+hostname = api.hechuangxinxi.xyz
