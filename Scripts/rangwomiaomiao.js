@@ -4,7 +4,7 @@
 解锁会员权益
 [rewrite_local]
 
-https://www.pdreamer.com/aymyProd/api/getUserInfo url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Script/rangwomiaomiao.js
+https://www.pdreamer.com/aymyProd/api/getUserInfo url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/rangwomiaomiao.js
 
 [mitm] 
 
