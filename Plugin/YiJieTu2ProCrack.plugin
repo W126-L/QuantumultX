@@ -1,6 +1,6 @@
 #!name=易截图
 #!desc=去除水印，解锁高级功能
-#!icon=https://raw.githubusercontent.com/W126-L/Tool/master/Icon/yijietu.png
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/yijietu.png
 
 [Script]
 http-response ^https?:\/\/.*jietu.*com/apiv\d/user script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/yijietu2.js, requires-body=true, timeout=60, tag=易截图去除水印，解锁高级功能,img-url=https://raw.githubusercontent.com/W126-L/Tool/master/Icon/yijietu.png
