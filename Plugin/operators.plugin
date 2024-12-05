@@ -3,9 +3,6 @@
 #!author=Wuang
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/operators.png
 #!raw-url=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/operators.plugin
-#!tag=去广告（4大运营商APP去广告）
-#!system=iOS, iPadOS
-#!support=支持4大运营商APP去广告
 
 # > 中国移动
 # hostname = client.app.coc.10086.cn, h.client.app.coc.10086.cn, app.10086.cn
