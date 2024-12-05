@@ -1,10 +1,9 @@
 #!name=广告拦截&净化合集
 #!desc=4大运营商APP去广告（中国移动、中国联通、中国电影、中国广电）
 #!author=Wuang
-#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AdblockPlus.png
-#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/operators.png
 #!raw-url=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/operators.plugin
-#!tag=去广告, fmz200, 奶思
+#!tag=去广告（4大运营商APP去广告）
 #!system=iOS, iPadOS
 #!support=支持4大运营商APP去广告
 
