@@ -32,3 +32,7 @@
 # > 中国广电
 # hostname = app.10099.com.cn
 ^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage reject-200
+
+
+[MITM]
+hostname = client.app.coc.10086.cn, h.client.app.coc.10086.cn, app.10086.cn, client.app.coc.10086.cn, h.client.app.coc.10086.cn, app.10086.cn, cloud.189.cn, zt-app.go189.cn, app.10099.com.cn
