@@ -1,7 +1,8 @@
 #!name=扫描全能王
 #!desc=扫描全能王（解锁黄金会员）
-#!author=原作者@chxm1023 @Wuang备份
+#!author=@Wuang备份(原作者@chxm1023)
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CamScanner.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CamScanner.png
 
 [Script]
