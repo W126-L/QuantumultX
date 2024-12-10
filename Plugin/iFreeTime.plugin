@@ -1,7 +1,9 @@
 #!name=爱阅书香
 #!desc=爱阅书香会员激励
+#!author=@Wuang备份(由@午时已到编译)
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/iFreeTime.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/iFreeTime.png
-#!author=午时已到
 #!category=⚙ ▸ 应用增强
 
 [General]
