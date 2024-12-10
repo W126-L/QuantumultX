@@ -4,7 +4,7 @@
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/iFreeTime.plugin
 #!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/iFreeTime.png
-#!category=⚙ ▸ 应用增强
+#!tag=阿旺の库
 
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
