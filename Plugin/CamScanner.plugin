@@ -4,6 +4,7 @@
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CamScanner.plugin
 #!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CamScanner.png
+#!category=⚙ ▸ 应用解锁
 
 [Script]
 http-response ^https:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CamScanner.js, requires-body=true, timeout=60, tag=CamScanner
