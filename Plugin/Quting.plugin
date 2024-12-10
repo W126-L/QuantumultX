@@ -4,6 +4,7 @@
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Quting.plugin
 #!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/qutingyunyue.png
+#!tag=阿旺の库
 
 [Script]
 http-response ^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/qutingyinyue.js, requires-body=true, timeout=60, tag=趣听音乐,url-img=https://raw.githubusercontent.com/W126-L/Tool/master/Icon/qutingyunyue.png
