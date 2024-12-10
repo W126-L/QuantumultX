@@ -4,6 +4,7 @@
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/WPS.plugin
 #!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/WPS.png
+#!category=⚙ ▸ 应用解锁
 
 [Script]
 http-response ^https?:\/\/(vas|account|drive)\.wps\.cn\/(query\/api\/.+\/list_purchase_info|api\/(v\d\/spaces|users\/.+\/overview)) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/WPS.js, requires-body=true, timeout=60, tag=WPS
