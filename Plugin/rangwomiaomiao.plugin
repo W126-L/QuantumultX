@@ -1,5 +1,7 @@
 #!name=让我喵喵
 #!desc=让我喵喵解锁兑换会员（永久）_去广告
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/rangwomiaomiao.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/rangwomiaomiao.png
 
 [Script]
