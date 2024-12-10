@@ -4,6 +4,7 @@
 #!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/ManYa.plugin
 #!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/aiyamanya.png
+#!tag=阿旺の库
 
 [Script]
 http-response https://www.aiyamanya.com/aymy/api/getUserInfo script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/ManYa.js, requires-body=true, timeout=60, tag=ManYa
