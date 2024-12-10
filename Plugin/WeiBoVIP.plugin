@@ -1,5 +1,8 @@
 #!name=微博（会员）
 #!desc=微博净化+解锁VIP图标
+#!author=@Wuang备份（原作者@XiaoMao）
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/WeiBoVIP.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/weibo.png
 
 [Script]
