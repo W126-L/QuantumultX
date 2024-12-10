@@ -28,8 +28,8 @@ https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/weibovip.js
 hostname = new.vip.weibo.cn,api.weibo.cn,weibointl.api.weibo.cn
 
 [rewrite_local]
-https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
-https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
-https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/wb.js
+https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
+https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
+https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
 
 ********************************/
