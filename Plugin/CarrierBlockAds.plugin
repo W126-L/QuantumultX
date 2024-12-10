@@ -1,5 +1,8 @@
 #!name=运营商去广告
 #!desc=运营商去广告合集
+#!author=@Wuang备份提取（原作者@奶思［fmz200〈https://github.com/fmz200〉］、由@午时已到编译）
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CarrierBlockAds.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CarrierBlockAds.png
 
 [Rewrite]
