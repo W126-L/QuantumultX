@@ -1,5 +1,8 @@
 #!name=趣听音乐
-#!desc=趣听音乐屏蔽弹窗/首页横幅
+#!desc=趣听音乐屏蔽首页横幅
+#!author=@Wuang备份（原作者chxm1023）
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Quting.plugin
+#!homepage=https://github.com/W126-L
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/qutingyunyue.png
 
 [Script]
