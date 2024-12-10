@@ -14,7 +14,7 @@
 使用方法：
 
 1、QX > 右下角风车 > 重写 > 规则资源 > 引用以下脚本 > 打开资源解析器
-https://raw.githubusercontent.com/W126-L/QuantumultX/main/weibovip.js
+https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/weibovip.js
 
 2、解锁位置：
 微博 > 我 > 右上角设置 > 会员专属设置 > 个性图标/微博来源
