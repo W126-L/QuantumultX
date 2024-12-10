@@ -1,7 +1,7 @@
 #!name=WPS
 #!desc=WPS（解锁会员）
 #!author=原作者@chxm1023 @Wuang备份
-#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CamScanner.plugin
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/WPS.plugin
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/WPS.png
 
 [Script]
