@@ -7,9 +7,9 @@
 #!tag=阿旺の库
 
 [Script]
-http-response ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, requires-body=true, timeout=60, tag=JavDB
+http-response ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, requires-body=true, timeout=60, tag=JavDB,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
 
-http-request ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, timeout=60, tag=JavDB
+http-request ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, timeout=60, tag=JavDB,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
 
 [MITM]
 hostname = api.hechuangxinxi.xyz
