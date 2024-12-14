@@ -7,7 +7,7 @@
 #!tag=阿旺の库
 
 [Script]
-http-response ^https://reading.snssdk.com/reading/reader/full/v/\?item_id=* script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/fanqie.js, script-response-body=true, timeout=60, tag=fanqie
+http-response ^https://reading.snssdk.com/reading/reader/full/v/\?item_id=* script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/fq.js, script-response-body=true, timeout=60, tag=fanqie
 
 [MITM]
 hostname = reading.snssdk.com
