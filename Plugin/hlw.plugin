@@ -1,11 +1,10 @@
 #!name = 黑料网去广告
 #!desc = 去除部分广告，优先使用海外永久入口，其次使用国内入口(会变动)，走代理
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/hlw.plugin
 #!author = @Wuang留存（原作者@fishdown）
-#!tag = 去广告
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/hlw.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/heiliaowang.png
-#!date = 2024-11-20
+#!tag = 去广告
 
 [Rewrite] 
 # 其他页面随机去广告
