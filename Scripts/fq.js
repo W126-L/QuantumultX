@@ -168,5 +168,5 @@ res = CryptoJS.enc.Base64.parse(econtent)
     dataWordArray = CryptoJS.lib.WordArray.create(res);
     res = cryptojs_De(dataWordArray, decrypted_key, ivWordArray)
     res = res.toString(CryptoJS.enc.Utf8)
-$done({body:JSON.stringify(res)});
+$done({body:res});
 });
