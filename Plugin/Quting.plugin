@@ -7,7 +7,7 @@
 #!tag=阿旺の库
 
 [Script]
-http-response ^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/qutingyinyue.js, requires-body=true, timeout=60, tag=趣听音乐,url-img=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/qutingyunyue.png
+http-response ^https?:\/\/(api|api\.next)\.bspapp\.com\/client$ script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/qutingyinyue.js, requires-body=true, timeout=60, tag=趣听音乐,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/qutingyunyue.png
 
 [MITM]
 hostname = api.bspapp.com, api.next.bspapp.com
