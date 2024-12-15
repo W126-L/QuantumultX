@@ -7,11 +7,11 @@
 #!tag=阿旺の库
 
 [Script]
-http-response https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=wb
+http-response https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=微博解锁会员图标脚本,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/weibo.png
 
-http-response https:\/\/api\.weibo\.cn\/device\/get script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=wb
+http-response https:\/\/api\.weibo\.cn\/device\/get script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=微博解锁会员图标脚本,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/weibo.png
 
-http-response https:\/\/weibointl\.api\.weibo\.cn\/portal\.php script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=wb
+http-response https:\/\/weibointl\.api\.weibo\.cn\/portal\.php script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js, requires-body=true, timeout=60, tag=微博结锁会员图标脚本,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/weibo.png
 
 [MITM]
 hostname = new.vip.weibo.cn, api.weibo.cn, weibointl.api.weibo.cn
