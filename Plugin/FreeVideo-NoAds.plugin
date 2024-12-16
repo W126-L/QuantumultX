@@ -1,7 +1,10 @@
 #!name=FreeVideo-NoAds
 #!desc=伪装影视去广告-通杀版
-
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1087.png
+#!author=@Wuang备份(原作者@ddgksf2013)
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/FreeVideo-NoAds.plugin
+#!homepage=https://github.com/W126-L
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/FreeVideo.png
+#!tag=阿旺の库
 
 [Rewrite]
 ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) - reject-200
