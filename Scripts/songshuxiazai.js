@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/W126-L/QuantumultX/main/songshuxiazai.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/songshuxiazai.js
 
 [mitm]
 hostname = buy.itunes.apple.com
