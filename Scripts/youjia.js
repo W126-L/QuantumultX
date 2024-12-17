@@ -1,5 +1,5 @@
 const $ = new Env("查询油价");
-// 默认福建
+// 默认山西临汾
 var region = $.getdata("oilArea") || "shanxi/linfen";
 
 
