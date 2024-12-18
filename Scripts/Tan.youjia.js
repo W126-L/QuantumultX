@@ -1,6 +1,6 @@
 const $ = new Env("查询油价");
-// 默认广东深圳（更改地区：手动更改下方拼音地区即可）
-var region = $.getdata("oilArea") || "guangdong/shenzhen";
+// 默认山西临汾（更改地区：手动更改下方拼音地区即可）
+var region = $.getdata("oilArea") || "shanxi/linfen";
 
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
