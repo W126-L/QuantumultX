@@ -1,7 +1,13 @@
+#!name=工商银行去广告
+#!desc=IBCC去广告合集［（工商银行，工银E生活（包含小程序）］小tips：如无效，需卸载APP重装，或清除App数据重新登陆
+#!author=@Wuang备份提取（原作者@奶思［fmz200〈https://github.com/fmz200）
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/IBCC.plugin
+#!homepage=https://github.com/W126-L
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/IBCC.png
+#!tag=阿旺の库
 
 # > 工商银行
 # hostname = v.icbc.com.cn
-# 如开启可自行添加主机名
 ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ reject-200
 
 # > 工银E生活
@@ -10,5 +16,5 @@
 
 # > 工银e生活小程序
 # hostname = elife.icbc.com.cn
-# 如开启可自行添加主机名
 ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do reject-200
+
