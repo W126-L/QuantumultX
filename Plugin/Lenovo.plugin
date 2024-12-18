@@ -1,0 +1,15 @@
+#!name=联想（Lenovo）
+#!desc=联想APP去开屏广告，小tips：如无效，需卸载APP重装，或清除App缓存重新打开
+#!author=@Wuang备份
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Lenovo.plugin
+#!homepage=https://github.com/W126-L
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Lenovo.png
+#!tag=阿旺の库
+
+[Rewrite]
+# > 联想
+# hostname = api.club.lenovo.cn
+^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad reject
+
+[Mitm]
+hostname = api.club.lenovo.cn
