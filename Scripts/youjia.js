@@ -4,7 +4,7 @@
 // var region = $.getdata("oilArea") || arg;
 
 const $ = new Env("查询油价");
-默认山西临汾（需手动更改下方拼音地区）
+// 默认山西临汾（需手动更改下方拼音地区）
 // var region = $.getdata("oilArea") || "shanxi/linfen"
 var region = $.getdata("oilArea") || $argument;
 
