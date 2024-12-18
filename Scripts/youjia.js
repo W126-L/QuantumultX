@@ -1,5 +1,5 @@
 const $ = new Env("查询油价");
-// 默认山西临汾
+// 默认山西临汾（更改地区：手动更改下方拼音即可）
 var region = $.getdata("oilArea") || "shanxi/linfen";
 
 
