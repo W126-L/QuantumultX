@@ -10,3 +10,6 @@
 # > 航旅纵横去开屏广告复写
 # hostname = oss.umetrip.com
 ^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite reject-dict
+
+[Mitm]
+hostname = oss.umetrip.com
