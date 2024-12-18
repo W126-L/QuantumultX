@@ -6,6 +6,7 @@
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/ICBC.png
 #!tag=阿旺の库
 
+[Rewrite]
 # > 工商银行
 # hostname = v.icbc.com.cn
 ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ reject-200
