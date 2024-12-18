@@ -4,7 +4,7 @@
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/hlw.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/heiliaowang.png
-#!tag = 去广告
+#!tag = 阿旺の库
 
 [Rewrite] 
 # 其他页面随机去广告
