@@ -14,4 +14,4 @@
 ^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect reject-200
 
 [MITM]
-hostname = midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.
+hostname = midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com, firefly.abchina.com.cn
