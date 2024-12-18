@@ -1,0 +1,15 @@
+#!name=爱思助手
+#!desc=爱思助手去开屏广告，小tips：如无效，需卸载APP重装，或清除App缓存重新打开
+#!author=@Wuang备份
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/i4.plugin
+#!homepage=https://github.com/W126-L
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/i4.png
+#!tag=阿旺の库
+
+[Rewrite]
+# > 爱思助手
+# hostname = list-app-m.i4.cn
+^https?:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml reject
+
+[Mitm]
+hostname = list-app-m.i4.cn
