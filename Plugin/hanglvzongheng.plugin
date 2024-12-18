@@ -7,5 +7,5 @@
 #!tag=阿旺の库
 
 # > 航旅纵横去开屏广告复写
-# hostname = cloud.189.cn, zt-app.go189.cn
+# hostname = oss.umetrip.com
 ^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite reject-dict
