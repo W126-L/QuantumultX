@@ -6,3 +6,6 @@
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CarrierBlockAds.png
 #!tag=阿旺の库
 
+# > 航旅纵横去开屏广告复写
+# hostname = cloud.189.cn, zt-app.go189.cn
+^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite reject-dict
