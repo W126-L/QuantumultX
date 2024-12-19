@@ -1,7 +1,7 @@
 const $ = new Env("查询油价");
 // 默认江苏扬州 
 // Loon请在参数填写jiangsu/yangzhou
-// Quantumult X 请在脚本url后添加#arg=jiangsu/yangzhou 例:https://raw.githubusercontent.com/youjia.js#arg=jiangsu/yangzhou
+// Quantumult X 请在脚本url后添加#arg=jiangsu/yangzhou 例:https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/meiriyoujia.js#arg=jiangsu/yangzhou
 
 let addr = "jiangsu/yangzhou"
 let env = $.getEnv()
