@@ -1,5 +1,5 @@
 const $ = new Env("查询油价");
-// 默认山西临汾（需手动更改下方拼音地区）
+// 默认山西临汾，例如，修改江苏扬州地区在参数填写jiangsu/yangzhou
 // var region = $.getdata("oilArea") || "shanxi/linfen"
 var region = $.getdata("oilArea") || $argument;
 
