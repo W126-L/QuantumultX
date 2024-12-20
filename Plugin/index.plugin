@@ -1,0 +1,12 @@
+#!name=网上国网
+#!desc=国上国网获取Boxjs数据小组件，BoxJs订阅地址:https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json
+#!author=由@Wuang备份（原作者：小白脸|𝐎𝐍𝐙𝟑𝐕）
+#!homepage=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js
+#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/index.plugin
+#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/guoshangguowang.png
+#!tag=阿旺の库
+
+[Script]
+http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=接口重写,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/guoshangguowang.png
+[MITM]
+hostname = api.wsgw-rewrite.com
