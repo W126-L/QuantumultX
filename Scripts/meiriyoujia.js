@@ -5,10 +5,10 @@ const $ = new Env("查询油价");
 
 let addr = "shanxi/linfen"
 let env = $.getEnv()
-if(env == "Loon"){
+if($.isLoon()){
   addr = $argument;
 }
-if(env == "Quantumult X"){
+if($.isQuanX()){
   let arg = $environment.sourcePath;
   addr = arg.split('#')[1].split('=')[1]
 }
